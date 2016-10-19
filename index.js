@@ -21,14 +21,21 @@ $(function () {
 
 function initCSS() {
     $('.cont').hide()
-    let h = 680, h1 = 250, w1 = 250, w2 = 15;
+    $('#meContent').show()
+    let h = 680, h1 = 250, w1 = 250, w2 = 15, fontSize = 50;
     $('.leftPanel').css({'width' : '15%', 'height' : '90%'})
     $('.centerPanel').css({'width': '80%', 'margin_right': '3%'})
+    $('.topicHeading').css({'font-family': 'Roboto', 'font-weight': 200, 'margin-left': '20%', 'font-size': fontSize})
+    $('.topicHeadings').css({'font-family': 'Roboto', 'font-weight': 200, 'margin-left': '5%', 'font-size': (fontSize-20)})
+
     if(screen.width < 400) {
         h = 200
         h1 = 125
         w1 = 100
         w2 = 35
+        fontSize = 23
+        $('.topicHeadings').css({'font-family': 'Roboto', 'font-weight': 200, 'margin-left': '5%', 'font-size': (fontSize-10)})
+        $('.topicHeading').css({'font-family': 'Roboto', 'font-weight': 200, 'margin-left': '15%', 'font-size': fontSize})
         $('.leftPanel').css({'width' : '30%'})
         $('.centerPanel').css({'width': '63%', 'margin_right': '2%'})
     }

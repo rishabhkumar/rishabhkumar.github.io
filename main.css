@@ -9,20 +9,6 @@ body {
     background-color: darkturquoise;
 }
 
-.topicHeading {
-    font-family:Roboto;
-    font-weight: 200;
-    margin-left: 20%;
-}
-
-.topicHeadings {
-    font-family:Roboto;
-    font-weight: 200;
-    margin-left: 5%;
-    font-size: 30px;
-}
-
-
 .ramu {
     width: 100%;
 }
