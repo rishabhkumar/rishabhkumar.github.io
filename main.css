@@ -5,7 +5,16 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: darkturquoise;
+}
+
+.sliderDimension {
+    full_width: true;
+    height: 350px;
+}
+
+.ramu {
+    width: 100%;
 }
 
 .lol2 {
@@ -16,6 +25,7 @@ body {
 .bodyPanel {
     display: flex;
     flex-wrap: wrap;
+    height: 90%;
 }
 
 .topPanel {
@@ -25,14 +35,18 @@ body {
 }
 
 .leftPanel {
-    width: 20%;
     height: 100%;
-    display: inline;
 }
 
 .centerPanel {
-    width:80%;
+    width:65%;
 }
 
 
+@media screen and (min-width: 576px) {
+    .sliderDimension {
+        full_width: true;
+        height: 200px;
+    }
+}
 
