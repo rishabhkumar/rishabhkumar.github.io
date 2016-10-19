@@ -1,0 +1,38 @@
+.lol {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.lol2 {
+    margin: 0%;
+    height: 100%;
+}
+
+.bodyPanel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topPanel {
+    width: 100%;
+    height:20%;
+    display: block;
+}
+
+.leftPanel {
+    width: 20%;
+    height: 100%;
+    display: inline;
+}
+
+.centerPanel {
+    width:80%;
+}
+
+
+
