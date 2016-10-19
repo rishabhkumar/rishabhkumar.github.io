@@ -2,51 +2,61 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 5%;
 }
 
 body {
     background-color: darkturquoise;
 }
 
-.sliderDimension {
-    full_width: true;
-    height: 350px;
+.topicHeading {
+    font-family:Roboto;
+    font-weight: 200;
+    margin-left: 20%;
 }
+
+.topicHeadings {
+    font-family:Roboto;
+    font-weight: 200;
+    margin-left: 5%;
+    font-size: 30px;
+}
+
 
 .ramu {
     width: 100%;
 }
 
-.lol2 {
-    margin: 0%;
-    height: 100%;
-}
-
 .bodyPanel {
     display: flex;
     flex-wrap: wrap;
-    height: 90%;
+    height: 85%;
+    margin-bottom: 5%;
+}
+
+.lol2 {
+    margin: 0%;
+    height: 70%;
+    width: 100%;
+    margin: 2%;
 }
 
 .topPanel {
     width: 100%;
     height:20%;
-    display: block;
-}
-
-.leftPanel {
-    height: 100%;
-}
-
-.centerPanel {
-    width:65%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 
-@media screen and (min-width: 576px) {
-    .sliderDimension {
-        full_width: true;
-        height: 200px;
+@media screen and (max-width: 460px) {
+    .lol {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 5%;
+        font-size: 0.5px;
     }
 }
 
