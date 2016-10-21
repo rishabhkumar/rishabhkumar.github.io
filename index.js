@@ -22,7 +22,7 @@ $(function () {
 function initCSS() {
     $('.cont').hide()
     $('#meContent').show()
-    let h = 680, h1 = 250, w1 = 250, w2 = 15, fontSize = 50;
+    let h = 600, h1 = 250, w1 = 250, w2 = 15, fontSize = 50;
     $('.leftPanel').css({'width' : '15%', 'height' : '90%'})
     $('.centerPanel').css({'width': '80%', 'margin_right': '3%'})
     $('.topicHeading').css({'font-family': 'Roboto', 'font-weight': 200, 'margin-left': '20%', 'font-size': fontSize})
