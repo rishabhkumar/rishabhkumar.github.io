@@ -51,6 +51,10 @@ body {
     width: 60%;
 }
 
+.devInfo {
+    font-size: medium;
+}
+
 @media screen and (max-width: 460px) {
     .lol {
         position: relative;

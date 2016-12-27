@@ -41,6 +41,8 @@ function initCSS() {
     }
     $('#rk').css({'height': h1,'width': w1})
     $('.slider').slider({full_width: true, height: h});
+    $('.collapsible').collapsible();
+    $('.materialboxed').materialbox();
 }
 
 
