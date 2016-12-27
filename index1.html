@@ -17,7 +17,6 @@
           <img  class="circle responsive-img" style="display: inline;" id="rk" src="media/RK.jpg">
             <div style="display: inline;" class="topicHeading">RISHABH KUMAR<br><div class="topicHeadings">Code, Sports, Music, Travel.</div><br>
                 <div class="topicHeadings center-align">
-                    <a class="waves-effect waves-light btn-large" target="_blank" href="https://drive.google.com/open?id=0B2iNVcH1ZKm8QThVNU9Tem81LUU">Resume</a>
                     <div class="song" style="font-size: medium">Favourite Song at the moment:</div>
                     <audio controls >
                         <source src="media/love.mp3" type="audio/mp3">
@@ -27,6 +26,48 @@
         </div>
 
         <br>
+
+        <div class="topicHeadings center-align"> <br><br>Some of my Favourites:</div>
+
+        <div class="slider lol2">
+            <ul class="slides">
+                <li>
+                    <img src="media/one.jpg"> <!-- random image -->
+                    <div class="caption left-align">
+                        <h3>One Piece</h3>
+                        <h5 class="light grey-text text-lighten-3">The best and the most genius creation of all time</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="media/naruto.jpg"> <!-- random image -->
+                    <div class="caption left-align">
+                        <h3>Naruto</h3>
+                        <h5 class="light grey-text text-lighten-3">All time favourite</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="media/house.jpg"> <!-- random image -->
+                    <div class="caption left-align">
+                        <h3>House MD</h3>
+                        <h5 class="light grey-text text-lighten-3">Favourite Sitcom</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="media/colplay.jpg"> <!-- random image -->
+                    <div class="caption right-align">
+                        <h3>Coldplay</h3>
+                        <h5 class="light grey-text text-lighten-3">Favourite Band</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="media/barca.jpg"> <!-- random image -->
+                    <div class="caption left-align">
+                        <h3>FC Barcelona</h3>
+                        <h5 class="light grey-text text-lighten-3">Favourite Sports Club</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
 
 
         <div class="bodyPanel">
@@ -41,8 +82,11 @@
                 </div>
             </div>
 
+
             <div id="contentBody" style="background-color: azure" class="centerPanel">
                 <!--This is central content part yo!-->
+
+
 
                 <div id="meContent" class="cont flow-text">
                     Hi, I am Rishabh Kumar. I like to code and develop. I am not much into Competitive programming though. I am music enthusiast too. I would like to play Grand Piano (Steinway and Sons) someday!
@@ -85,11 +129,20 @@
                     These are some of the softwares/apps I made myself.<br>
 
                     <ul class="collapsible" data-collapsible="accordion">
+
                         <li>
-                            <div class="collapsible-header">Symphony</div>
+                            <div class="collapsible-header">This site</div>
+                            <div class="collapsible-body devInfo">
+                                <p>This website was solely created by me using HTML, CSS, and JavaScript. For front end framework, Google's Materialize is used. All the CSS borders, shapes, and structure of this website is solely created by me.</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="collapsible-header">Symphony - Music Player Android App</div>
                             <div class="collapsible-body devInfo">
                                 <img src="media/symphony.gif" width="200" height="350" align="middle"> <p>Symphony is a music app completely made by me for personal use for the family. It's 'Play', 'Pause', 'Stop' buttons also are created by me rather than using 'MediaPlayer' class to provide for the pre-written media player in the android. The code uses multiple threads to keep the seek bar in sync with the timing and the song itself. When connected to internet, it also <b>displays lyrics</b> of the song currently being played. API used for fetching the lyrics: <b>JSOUP</b></p><p>At the moment the app is not coded for scanning the whole mobile device and show the music list as the main aim while creating the app was to create a music player directly from scratch without using any predefined media players and to fetch the lyrics from the internet. Though, it can easily be coded to scan the whole device but again that was not the aim at the start of this app.<br>Video Demo: <a href="https://www.youtube.com/watch?v=jFtvIm4BYZw">YouTube Link</a></p></div>
                         </li>
+
                         <li>
                             <div class="collapsible-header">E-Commerce</div>
                             <div class="collapsible-body">
@@ -98,9 +151,33 @@
                                 <img class="materialboxed" data-caption="Product Manager" width="250" src="media/productmanager.png">
                                 <p class="devInfo">A 2 hour coding to create a simple e-commerce website. The site is built on NodeJS at the backend and the database used is MySQL. Google's materializecss is used for the front end. This web application allows to add/remove products on the website. The user, without the need of loggin in, can save their cart simply by putting their name. For this purpose, the site uses browser side JavaScript API of 'localStorage' and 'sessionStorage'.</p><p class="devInfo">Due to pricing of Payment gateway APIs, the website, as of now, does not supports payment.</p><p class="devInfo">Video Demo: <a href="https://youtu.be/FiKXS1G7-Rc">YouTube Link</a> </p> </div>
                         </li>
+
                         <li>
-                            <div class="collapsible-header">Third</div>
-                            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+                            <div class="collapsible-header">Internship: Android App for Defence Research and Development Organisation (DRDO), New Delhi</div>
+                            <div class="collapsible-body devInfo">
+                                <img src="media/drdo.gif" height="350" width="250">
+                                <p>For the summer internship in my third year of college, I, with 2 more fellows created this android app for DRDO which gives an overview over the organisation's products, and recent news from them. For fetching recent news no additional server is required as by using JSoup API, the app automatically fetches the news from the website itself.</p><p>As requested by out mentor scientist, we also added a short quiz in the app which asks questions about the DRDO itself and also it's products. To maintain the score records, SQLite database is used. The whole of UI as well as backend part have been made from scratch by us.</p></div>
+                        </li>
+
+                        <li>
+                            <div class="collapsible-header">Industrial Training Project: Local Cloud Services</div>
+                            <div class="collapsible-body devInfo">
+                                <img src="media/ftp.gif" height="350" width="250">
+                                <p>For the industrial project in 2nd year of college, myself and a 3 more fellow students in a group, created this web application using J2EE (Java Enterprise) Servlets. This application on registration creates a new space for the user to store files in. The user has a choice to either upload the file privately in the space allocated or in the public space for everybody to see and download maybe.</p><p>For private storage, the user can still share the file just by writing the target user's username. The database used for maintaining records is MySQL</p><p>I handled all the backend issue of this project involving all the database interaction with the server. I also created the basic HTML structure for the website to run on which CSS framework was implemented by other members of the group to make it more interactive.</p></div>
+                        </li>
+
+                        <li>
+                            <div class="collapsible-header">Minor Project: Digitally drawn character recognition using Neural Network</div>
+                            <div class="collapsible-body devInfo">
+                                <img src="media/minor.gif" height="350" width="450">
+                                <p>For the minor project in the college, a group of 4 was formed and we decided to use neural network to recognise a character drawn on the system by the user. The neural network is implemented solely on Java from scratch. It uses Backpropagation algorithm to 'learn'. The GUI also, is implemented in Java.</p><p>For storing the image information, the image or the grid is binarized into a matrix which is then used later for training the whole network to perform more accurately based on the patterns drawn earlier. As we have used a neural network, hence, the more the test cases, the more accurate is the recognition.</p></div>
+                        </li>
+
+                        <li>
+                            <div class="collapsible-header">Pacbot: A Turbo C++ game</div>
+                            <div class="collapsible-body devInfo">
+                                <img src="media/pacbot.gif" height="350" width="450">
+                                <p>A small game created on the infamous Turbo compiler called Pacbot.</p><p>The aim is to avoid the pac 'P', the blocks 'X' and the boundaries of course for as long as possible. The game provides with 3 difficulties. These difficulties are in accordance with the speed with which the Pac 'P' moves.</p></div>
                         </li>
                         For all projects, please go to github profile: <a href="https://github.com/rishabhkumar">Rishabh's Github</a>
                     </ul>
@@ -115,46 +192,7 @@
             </div>
 
 
-            <div class="topicHeadings center-align"> <br><br>Some of my Favourites:</div>
-            <div class="slider lol2">
-                <ul class="slides">
-                    <li>
-                        <img src="media/one.jpg"> <!-- random image -->
-                        <div class="caption left-align">
-                            <h3>One Piece</h3>
-                            <h5 class="light grey-text text-lighten-3">The best and the most genius creation of all time</h5>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="media/naruto.jpg"> <!-- random image -->
-                        <div class="caption left-align">
-                            <h3>Naruto</h3>
-                            <h5 class="light grey-text text-lighten-3">All time favourite</h5>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="media/house.jpg"> <!-- random image -->
-                        <div class="caption left-align">
-                            <h3>House MD</h3>
-                            <h5 class="light grey-text text-lighten-3">Favourite Sitcom</h5>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="media/colplay.jpg"> <!-- random image -->
-                        <div class="caption right-align">
-                            <h3>Coldplay</h3>
-                            <h5 class="light grey-text text-lighten-3">Favourite Band</h5>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="media/barca.jpg"> <!-- random image -->
-                        <div class="caption left-align">
-                            <h3>FC Barcelona</h3>
-                            <h5 class="light grey-text text-lighten-3">Favourite Sports Club</h5>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+
 
         </div>
 
