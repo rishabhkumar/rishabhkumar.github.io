@@ -19,6 +19,8 @@ body {
     margin: 0%;
 }
 
+
+
 .song {
     font-size: small;
 }
@@ -48,7 +50,7 @@ body {
 
 .cont {
     margin-left: 3%;
-    width: 60%;
+    width: 100%;
 }
 
 .devInfo {
